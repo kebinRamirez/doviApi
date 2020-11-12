@@ -2,8 +2,6 @@ import gunicorn
 from typing import Optional
 from fastapi import Depends, FastAPI, Header, HTTPException
 from pydantic import BaseModel
-import pandas as pd 
-import numpy as np
 import glob 
 #matplotlib
 import matplotlib 
@@ -25,11 +23,6 @@ app.include_router(Colombia.router)
 app.include_router(States.router)
 app.include_router(Neigh.router)
 app.include_router(Town.router)
-
-
-
-
-
 
 
 @app.get("/")
