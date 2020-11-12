@@ -1,7 +1,7 @@
 ﻿asyncpg==0.20.1
-pandas
+pandas==0.18.1  
+numpy==1.11.1  
 matplotlib
-numpy
 click==7.1.2
 databases==0.3.2
 fastapi
