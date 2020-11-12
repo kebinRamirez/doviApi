@@ -1,5 +1,6 @@
 ﻿asyncpg==0.20.1
-numpy==1.11.1  
+numpy==1.16.3
+pandas==0.24.2
 matplotlib
 click==7.1.2
 databases==0.3.2
