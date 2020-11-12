@@ -20,7 +20,6 @@ from distribution import Neigh
 from distribution import Colombia, States, Town
 from distribution.Colombia import datasets
 
-
 app = FastAPI()
 app.include_router(Colombia.router)
 app.include_router(States.router)
