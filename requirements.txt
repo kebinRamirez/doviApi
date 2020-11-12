@@ -1,6 +1,5 @@
 ﻿asyncpg==0.20.1
 matplotlib
-click==7.1.2
 databases==0.3.2
 fastapi
 gunicorn==20.0.4
