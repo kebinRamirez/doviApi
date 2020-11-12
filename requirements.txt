@@ -1,12 +1,12 @@
 ﻿asyncpg==0.20.1
-matplotlib
+matplotlib==3.3.3
 databases==0.3.2
-fastapi
+fastapi==0.61.2
 gunicorn==20.0.4
 pydantic==1.5.1
 starlette==0.13.4
 uvicorn==0.11.5
 websockets==8.1
-psycopg2
-numpy
+psycopg2==2.8.6
+numpy==1.19.4
 pandas==0.24.2
